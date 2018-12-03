@@ -16,7 +16,60 @@ Super Canvasser helps organizations run door-to-door canvassing campaigns (sales
 <img width="1280" alt="screen shot 2018-11-19 at 12 22 37 am" src="https://user-images.githubusercontent.com/20756728/48687893-90631d00-eb91-11e8-9301-d2b3e6cc23c4.png">
 <img width="1280" alt="screen shot 2018-11-19 at 12 22 15 am" src="https://user-images.githubusercontent.com/20756728/48688080-7118bf80-eb92-11e8-8c35-6caba9023a3e.png">
 
+# Usage
+To run the application:
+```
+$ npm run dev
+```
+To run only back-end server:
+```
+$ npm run server
+```
+To run only front-end client:
+```
+$ npm run client
+```
 
+# Dependencies
+Install back-end dependencies:
+```
+"dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "mysql": "^2.16.0",
+    "node-cmd": "^3.0.0",
+    "nodemon": "^1.18.4"
+}
+```
+Install front-end dependencies:
+```
+"dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "@material-ui/icons": "^3.0.1",
+    "ajv": "^6.5.4",
+    "bootstrap": "^4.1.3",
+    "chart.js": "^2.7.3",
+    "google-maps-react": "^2.0.2",
+    "jquery": "^3.3.1",
+    "react": "^16.5.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-bootstrap": "^0.32.4",
+    "react-center": "^1.1.1",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.6.0",
+    "react-google-maps": "^9.4.5",
+    "react-infinite-calendar": "^2.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.1",
+    "react-stars": "^2.2.5",
+    "react-table": "^6.8.6",
+    "react-toolbox": "^2.0.0-beta.13",
+    "react-web-tabs": "^1.0.1",
+    "write-json-file": "^3.0.2"
+}
+```
 ## 2. Functionality for Campaign Managers
 
 ### 2.1 Create, View and Edit Campaigns
